@@ -1,13 +1,13 @@
 import "../Header/header.scss";
 
-import logoImage from "../../assets/icons/logo.svg";
+import { ReactComponent as LogoIcon } from "../../assets/icons/logo.svg";
 
 export const Header = () => {
   return (
     <header className="header">
       <div className="header__content">
         <a href="/#" className="logo">
-          <img src={logoImage} alt="/#" />
+          <LogoIcon />
         </a>
         <nav className="header__nav">
           <a href="/#" className="header__nav-link">

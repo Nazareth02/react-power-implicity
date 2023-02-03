@@ -1,7 +1,7 @@
+import "./ui/reset.scss";
+import "./ui/main-template.scss";
 import { Header } from "./components/Header/Header";
 import { Slider } from "./components/Slider/Slider";
-import "./ui/main-template.scss";
-import "./ui/reset.scss";
 
 export const App = () => {
   return (

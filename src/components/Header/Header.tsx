@@ -1,5 +1,4 @@
 import "../Header/header.scss";
-
 import { ReactComponent as LogoIcon } from "../../assets/icons/logo.svg";
 
 export const Header = () => {
